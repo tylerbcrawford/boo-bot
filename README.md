@@ -239,3 +239,7 @@ When setting up the Discord bot, enable **Message Content Intent** under Privile
 ## License
 
 MIT License — see [LICENSE](LICENSE).
+
+## Acknowledgments
+
+- Built with [Claude Code](https://claude.com/claude-code)
