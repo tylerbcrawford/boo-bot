@@ -10,7 +10,7 @@ I run a 49-service self-hosted media server (Plex, Sonarr, Radarr, Readarr, Prow
 
 I wanted a bot that owns the server's Discord presence. One that rebrands every notification under a single identity, adds YouTube trailers to new media announcements, suppresses notification floods when entire seasons land at once, and gives users clean request workflows instead of asking them to navigate Sonarr's UI. Each feature is built as an independent cog, so I can develop, test, and deploy them without touching unrelated code.
 
-This is the real bot running in production, not a demo project.
+This is the real bot running in production.
 
 ## Features
 
