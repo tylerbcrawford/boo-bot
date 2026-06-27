@@ -6,7 +6,7 @@ Built with Python, [discord.py](https://discordpy.readthedocs.io/), and the Cogs
 
 ## Why I Built This
 
-I run a self-hosted media server with 46+ Docker containers (Plex, Sonarr, Radarr, Readarr, Prowlarr, and more) for a small community of friends and family. [Notifiarr](https://notifiarr.com/) handles webhook notifications from these services, but it posts as a generic bot with no personality and no context — raw embed dumps that most people ignore.
+I run a 49-service self-hosted media server (Plex, Sonarr, Radarr, Readarr, Prowlarr, and more) for a small community of friends and family. [Notifiarr](https://notifiarr.com/) handles webhook notifications from these services, but it posts as a generic bot with no personality and no context — raw embed dumps that most people ignore.
 
 I wanted a bot that owns the server's Discord presence. One that rebrands every notification under a single identity, adds YouTube trailers to new media announcements, suppresses notification floods when entire seasons land at once, and gives users clean request workflows instead of asking them to navigate Sonarr's UI. Each feature is built as an independent cog, so I can develop, test, and deploy them without touching unrelated code.
 
