@@ -7,8 +7,8 @@ Built with Python, [discord.py](https://discordpy.readthedocs.io/), and the Cogs
 Boo Bot is one service in a [49-service self-hosted infrastructure stack](https://github.com/tylerbcrawford/infrastructure-showcase), and it owns the Discord layer that ties those media services together.
 
 <p align="center">
-  <img src="docs/images/boo-bot-rebrand-discord.png" width="360" alt="A Boo Bot embed in Discord showing a rebranded Plex status digest"><br>
-  <sub>Every notification wears one identity across the server. Here, a rebranded Plex status digest in #plex.</sub>
+  <img src="docs/images/boo-bot-rebrand-discord.png" width="360" alt="A Boo Bot embed in Discord showing a Plex session digest"><br>
+  <sub>Boo Bot posting a Plex session digest in #plex.</sub>
 </p>
 
 ## Why I Built This
