@@ -4,6 +4,13 @@ Modular Discord bot for media server management — book requests, TV/movie sear
 
 Built with Python, [discord.py](https://discordpy.readthedocs.io/), and the Cogs extension system.
 
+Boo Bot is one service in a [49-service self-hosted infrastructure stack](https://github.com/tylerbcrawford/infrastructure-showcase), and it owns the Discord layer that ties those media services together.
+
+<p align="center">
+  <img src="docs/images/boo-bot-rebrand-discord.png" width="360" alt="A Boo Bot embed in Discord showing a rebranded Plex status digest"><br>
+  <sub>Every notification wears one identity across the server. Here, a rebranded Plex status digest in #plex.</sub>
+</p>
+
 ## Why I Built This
 
 I run a 49-service self-hosted media server (Plex, Sonarr, Radarr, Readarr, Prowlarr, and more) for a small community of friends and family. [Notifiarr](https://notifiarr.com/) handles webhook notifications from these services, but it posts as a generic bot with no personality and no context — raw embed dumps that most people ignore.
