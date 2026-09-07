@@ -4,7 +4,7 @@ Modular Discord bot for media server management — book requests, TV/movie sear
 
 Built with Python, [discord.py](https://discordpy.readthedocs.io/), and the Cogs extension system.
 
-Boo Bot is one service in a [49-service self-hosted infrastructure stack](https://github.com/tylerbcrawford/infrastructure-showcase), and it owns the Discord layer that ties those media services together.
+Boo Bot is one service in a [57-service self-hosted infrastructure stack](https://github.com/tylerbcrawford/infrastructure-showcase), and it owns the Discord layer that ties those media services together.
 
 <p align="center">
   <img src="docs/images/boo-bot-rebrand-discord.png" width="360" alt="A Boo Bot embed in Discord showing a Plex session digest"><br>
@@ -13,7 +13,7 @@ Boo Bot is one service in a [49-service self-hosted infrastructure stack](https:
 
 ## Why I Built This
 
-I run a 49-service self-hosted media server (Plex, Sonarr, Radarr, Readarr, Prowlarr, and more) for a small community of friends and family. [Notifiarr](https://notifiarr.com/) handles webhook notifications from these services, but it posts as a generic bot with no personality and no context — raw embed dumps that most people ignore.
+I run a 57-service self-hosted media server (Plex, Sonarr, Radarr, Readarr, Prowlarr, and more) for a small community of friends and family. [Notifiarr](https://notifiarr.com/) handles webhook notifications from these services, but it posts as a generic bot with no personality and no context — raw embed dumps that most people ignore.
 
 I wanted a bot that owns the server's Discord presence. One that rebrands every notification under a single identity, adds YouTube trailers to new media announcements, suppresses notification floods when entire seasons land at once, and gives users clean request workflows instead of asking them to navigate Sonarr's UI. Each feature is built as an independent cog, so I can develop, test, and deploy them without touching unrelated code.
 
