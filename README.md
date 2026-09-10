@@ -2,6 +2,8 @@
 
 Modular Discord bot for media server management — book requests, TV/movie search, smart notifications, YouTube trailers, and AI-powered search.
 
+> **Built with Claude Code.** I set the requirements and the architecture, made the design decisions, and run the production version on my media server's Discord. The agent wrote most of the code under my direction.
+
 Built with Python, [discord.py](https://discordpy.readthedocs.io/), and the Cogs extension system.
 
 Boo Bot is one service in a [57-service self-hosted infrastructure stack](https://github.com/tylerbcrawford/infrastructure-showcase), and it owns the Discord layer that ties those media services together.
